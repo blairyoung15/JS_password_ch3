@@ -55,6 +55,14 @@ var characters = [];
         }
       }
 
+    // confirm if user wants to use specials, if confirmed, for loop is activated for special characters
+    var special = confirm("Would you like to include special characters?");
+      if(special === true) {
+        for (var i = 0; i < specialChar.length; i++) {
+          characters.push(specialChar[i]);
+        }
+      }
+
 //  3. generate password based on criteria 
 //  4. display password on page
 
