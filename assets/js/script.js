@@ -30,6 +30,16 @@ var characters = [];
 
 
 //  2. confirm choices for characters criteria 
+
+  // confirm if user wants to use lowercase, if confirmed, for loop is activated for lowercase characters
+  var lowercase = confirm("Would you like to include lowercase characters?");
+  if(lowercase === true) {
+    for (var i = 0; i < lowerChar.length; i++) {
+      characters.push(lowerChar[i]);
+    }
+  }
+
+  
 //  3. generate password based on criteria 
 //  4. display password on page
 
