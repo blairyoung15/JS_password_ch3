@@ -77,8 +77,5 @@ for(var i = 0; i < length; i++) {
     return passwordRandom;
 }
 
-
-
-
 // Add event listener to generate button (keep at bottom of code)
 generateBtn.addEventListener("click", writePassword);
