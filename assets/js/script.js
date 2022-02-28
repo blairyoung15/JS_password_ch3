@@ -64,7 +64,19 @@ var characters = [];
       }
 
 //  3. generate password based on criteria 
+var passwordRandom = "";
+for(var i = 0; i < length; i++) {
+    characters[
+        Math.floor(Math.random() * characters.length)];
+        passwordRandom +=
+          characters[
+            Math.floor(Math.random() * characters.length)
+          ];
+    }
 //  4. display password on page
+    return passwordRandom;
+}
+
 
 
 
