@@ -39,7 +39,14 @@ var characters = [];
     }
   }
 
-  
+    // confirm if user wants to use numbers, if confirmed, for loop is activated for number characters
+    var numbers = confirm("Would you like to include number characters?");
+      if(numbers === true) {
+        for (var i = 0; i < numberChar.length; i++) {
+          characters.push(numberChar[i]);
+        }
+      }
+
 //  3. generate password based on criteria 
 //  4. display password on page
 
