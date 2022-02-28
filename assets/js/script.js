@@ -39,6 +39,14 @@ var characters = [];
     }
   }
 
+    // confirm if user wants to use uppercase, if confirmed, for loop is activated for uppercase characters
+    var uppercase = confirm("Would you like to include uppercase characters?");
+      if(uppercase === true) {
+        for (var i = 0; i < upperChar.length; i++) {
+          characters.push(upperChar[i]);
+         }
+      }
+
     // confirm if user wants to use numbers, if confirmed, for loop is activated for number characters
     var numbers = confirm("Would you like to include number characters?");
       if(numbers === true) {
